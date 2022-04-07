@@ -26,5 +26,49 @@ $theme-colors: (
   s-lgt: $s-lgt,
   s-drk: $s-drk,
 );
+
 @import "~bootstrap/scss/bootstrap";
 @import "./app.scss";
+
+// .d-grid {
+//   height: 100vh;
+//   width: auto;
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   grid-template-rows: 15vh auto;
+//   grid-template-areas: 
+//     "static-links"
+//     "main-content";
+//     // "footer footer";
+// }
+
+// .dashboard-nav {
+//   height: 100%;
+//   background-color: $p-lgt;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .static-links {
+//   height: 100%;
+//   grid-area: static-links;
+//   grid-column: 1 / 13;
+//   background-color: $primary;
+// }
+
+// .main-content {
+//   height: 100%;
+//   grid-area: main-content;
+//   grid-column: 2 / 13;
+//   background-color: $primary;
+//   color: white;
+// }
+
+// .footer {
+//   height: 100%;
+//   grid-area: footer;
+//   grid-column: 1 / 13;
+//   background-color: $p-lgt;
+// }

@@ -1,0 +1,38 @@
+{% extends 'base_grid.html.twig' %}
+
+{% block title %}{{parent()}} - Tableau de bord{% endblock %}
+
+{% block body %}
+
+    <header>
+        {% include "inc/static_link.html.twig" %}
+        <div class="bg-p-lgt">
+            <ul class="navbar-nav w-75 mx-auto d-flex flex-row justify-content-around align-items-center">
+                <li class="nav-item">
+                <a href="#" class="nav-link text-white">Lien 1</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-white">Lien 2</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-white">Lien 3</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-white">Lien 4</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-white">Lien 5</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+
+    <main class="main-content">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Quaerat suscipit odio quod accusantium facere, consequatur quo, qui atque excepturi aliquid maiores omnis alias, 
+    fugit veritatis animi tenetur ratione placeat. Autem.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem incidunt cumque ratione perspiciatis a consequuntur facere, qui nesciunt atque, tempore accusamus sapiente eum optio consectetur dolor explicabo vero ad dolorem.
+    </main>
+
+{% endblock %}
